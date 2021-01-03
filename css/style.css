@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'JetBrains Mono', monospace;
+  color: #3a4750;
+  background-color: #ecf4f3;
+}
+p {
+  font-weight: normal;
+  font-size: 22px;
+}
+h1 {
+  font-family: 'Audiowide', cursive;
+  font-size: 5rem;
+  color: #14ffec;
+}
+h2 {
+  font-family: 'Audiowide', cursive;
+  font-size: 2.18rem;
+  color: #14ffec;
+}
+h3 {
+  font-family: 'Goldman', cursive;
+  color: #14ffec;
+}
+hr {
+  border: dotted;
+  border-bottom: none;
+  color: #f9ed69;
+  width: 7%;
+  margin: 100px auto 100px auto;
+  border-width: 10px
+}
+a {
+  color: #f9ed69;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #14ffec;
+}
+
+/* Clases */
+.container {
+  position: relative;
+  padding-top: 100px;
+  background-color: #f9ed69;
+  height: 837px;
+}
+.sub_titulo {
+  font-weight: normal;
+  font-size: 22px;
+}
+.Fila_Habilidades {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2
+}
+.mando {
+  width: 169px;
+  height: 169px;
+  float: right;
+  margin-left: 30px
+
+}
+.tienda {
+  width: 169px;
+  height: 169px;
+  float: left;
+  margin-right: 30px
+}
+.netflix {
+  width: 169px;
+  height: 169px;
+  float: right;
+  margin-left: 30px;
+}
+.light {
+  font-weight: 100;
+}
+.myButton {
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background-color:#f9ed69;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.myButton:hover {
+	background-color:#ffab23;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.contenedor-medio {
+  margin: 100px 0;
+}
+.bottom-container {
+  background-color: #ffab23;
+  padding: 50px 0 20px;
+}
+/* ID */
+#SegundaNube {
+  position: absolute;
+  left: 560px;
+}
+#PrimeraNube {
+  position: absolute;
+  right: 550px;
+  top: 50px;
+}
+#kollector {
+  width: 720px;
+  height: 480px;
+}
+#titulo {
+  margin-top: 100px auto 0 auto;
+}
